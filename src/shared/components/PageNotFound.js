@@ -8,6 +8,7 @@ const customStyle = {
   height: "100vh",
   overflow: "hidden",
   alignItems: "center",
+  background: "white",
 };
 function PageNotFound() {
   return (
