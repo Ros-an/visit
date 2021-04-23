@@ -1,5 +1,6 @@
 import React from "react";
 import MainHeader from "./MainHeader";
+import NavLinks from "./NavLinks";
 
 import { Link } from "react-router-dom";
 
@@ -17,7 +18,9 @@ function MainNavigation() {
         {" "}
         <Link to="/">Places</Link>
       </h1>
-      <nav>...</nav>
+      <nav>
+        <NavLinks />
+      </nav>
     </MainHeader>
   );
 }
