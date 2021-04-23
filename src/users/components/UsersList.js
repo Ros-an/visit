@@ -1,11 +1,12 @@
 import React from "react";
+import UserItem from "./UserItem";
 
 function UsersList(props) {
   if (props.items.length === 0) {
     return <div className="center">No users found.</div>;
   }
   return (
-    <ul>
+    <ul className="user-list">
       {props.items.map((user) => (
         <UserItem
           key={user.id}
