@@ -10,7 +10,7 @@ function Users() {
       image: "https://picsum.photos/200",
     },
   ];
-  return <UsersList item={USER} />;
+  return <UsersList items={USER} />;
 }
 
 export default Users;
